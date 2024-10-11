@@ -1,0 +1,7 @@
+{
+  "name": "@harmonic/ts-config",
+  "version": "1.0.0",
+  "author": "Davi Gabriel",
+  "license": "MIT",
+  "private": true
+}
