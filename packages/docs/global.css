@@ -1,0 +1,14 @@
+.container {
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.containerColor {
+  margin: 100px 300px;
+}
+
+.title {
+  font-size: 4rem;
+  font-weight: bold;
+  line-height: 1rem;
+}
