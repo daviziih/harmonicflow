@@ -1,4 +1,4 @@
 {
-  "extends": "@harmonic/ts-config/react.json",
+  "extends": "@elysium/ts-config/react.json",
   "include": ["src"]
 }

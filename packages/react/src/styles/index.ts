@@ -8,7 +8,7 @@ import {
   radii,
   fonts,
   space
-} from '@harmonic/tokens'
+} from '@elysium/tokens'
 
 export const {
   styled,

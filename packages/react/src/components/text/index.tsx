@@ -3,28 +3,16 @@ import { Icon, Input, TextInputContainer } from './styles'
 import { LinkSimpleHorizontalBreak } from 'phosphor-react'
 
 export interface TextInputProps extends ComponentProps<typeof Input> {
-  icon?: boolean
+  icon?: string
   invalid?: boolean
   disabled?: boolean
-  placeholder: string
 }
 
-export function TextInput({
-  icon,
-  disabled,
-  invalid,
-  placeholder
-}: TextInputProps) {
-  const buttonClass = invalid ? 'button invalid' : 'button' // Aplica classe de inválido
-
+export function TextInput({ icon, ...props }: TextInputProps) {
   return (
     <TextInputContainer>
-      {!!icon && (
-        <Icon>
-          <LinkSimpleHorizontalBreak size={16} />
-        </Icon>
-      )}
-      <Input placeholder={placeholder} disabled={disabled} />
+      {!!icon && <Icon>{icon}</Icon>}
+      <Input {...props} />
     </TextInputContainer>
   )
 }

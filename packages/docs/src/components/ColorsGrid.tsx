@@ -1,4 +1,4 @@
-import { colors } from '@harmonic/tokens'
+import { colors } from '@elysium/tokens'
 import { getContrast } from 'polished'
 
 export function ColorsGrid() {

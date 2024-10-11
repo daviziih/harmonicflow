@@ -1,5 +1,5 @@
 {
-  "name": "@harmonic/docs",
+  "name": "@elysium/docs",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
@@ -13,9 +13,9 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "@harmonic/react": "*",
-    "@harmonic/tokens": "*",
-    "@harmonic/ts-config": "*",
+    "@elysium/react": "*",
+    "@elysium/tokens": "*",
+    "@elysium/ts-config": "*",
     "polished": "^4.3.1",
     "react": "^18.3.1",
     "react-dom": "^18.3.1"

@@ -1,10 +1,10 @@
 import { Meta, StoryObj } from '@storybook/react'
 
-import { Box, BoxProps, Text } from '@harmonic/react'
+import { Card, CardProps, Text } from '@elysium/react'
 
 export default {
   title: 'Surfaces/Card',
-  component: Box,
+  component: Card,
   parameters: {
     layout: 'centered'
   },
@@ -27,6 +27,6 @@ export default {
       } as any
     }
   }
-} as Meta<BoxProps>
+} as Meta<CardProps>
 
-export const Primary: StoryObj<BoxProps> = {}
+export const Primary: StoryObj<CardProps> = {}

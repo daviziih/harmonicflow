@@ -1,6 +1,7 @@
 import { Meta, StoryObj } from '@storybook/react'
 
-import { TextInput, TextInputProps } from '@harmonic/react'
+import { TextInput, TextInputProps } from '@elysium/react'
+import { LinkSimpleHorizontalBreak } from 'phosphor-react'
 
 export default {
   title: 'Form/Text Input',
@@ -29,7 +30,7 @@ export const Disabled: StoryObj<TextInputProps> = {
 
 export const WithIcon: StoryObj<TextInputProps> = {
   args: {
-    icon: true
+    icon: <LinkSimpleHorizontalBreak size={16} />
   }
 }
 
