@@ -25,6 +25,12 @@ const config = {
   docs: {
     autodocs: true,
     defaultName: 'Documentation'
+  },
+  viteFinal: (config, { configType }) => {
+    if (configType === 'PRODUCTION') {
+      config.base = '/harmonicflow/'
+    }
+    return config
   }
 }
 export default config
