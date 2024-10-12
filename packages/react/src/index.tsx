@@ -1,3 +1,5 @@
+export * from './styles'
+
 export * from './components/heading'
 export * from './components/text'
 export * from './components/button'

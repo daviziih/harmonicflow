@@ -1,6 +1,5 @@
-import { ComponentProps } from 'react'
+import { ComponentProps, ElementRef, forwardRef } from 'react'
 import { Icon, Input, TextInputContainer } from './styles'
-import { LinkSimpleHorizontalBreak } from 'phosphor-react'
 
 export interface TextInputProps extends ComponentProps<typeof Input> {
   icon?: string
@@ -8,13 +7,15 @@ export interface TextInputProps extends ComponentProps<typeof Input> {
   disabled?: boolean
 }
 
-export function TextInput({ icon, ...props }: TextInputProps) {
-  return (
-    <TextInputContainer>
-      {!!icon && <Icon>{icon}</Icon>}
-      <Input {...props} />
-    </TextInputContainer>
-  )
-}
+export const TextInput = forwardRef<ElementRef<typeof Input>, TextInputProps>(
+  ({ icon, ...props }: TextInputProps, ref) => {
+    return (
+      <TextInputContainer>
+        {!!icon && <Icon>{icon}</Icon>}
+        <Input ref={ref} {...props} />
+      </TextInputContainer>
+    )
+  }
+)
 
 TextInput.displayName = 'TextInput'

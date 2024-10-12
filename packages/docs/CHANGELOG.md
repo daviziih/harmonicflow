@@ -1,5 +1,20 @@
 # @harmonicflow/docs
 
+## 2.0.2
+
+### Patch Changes
+
+- Add index ref
+- Updated dependencies
+  - @harmonicflow/react@3.0.1
+
+## 2.0.1
+
+### Patch Changes
+
+- Updated dependencies
+  - @harmonicflow/react@3.0.0
+
 ## 2.0.0
 
 ### Major Changes

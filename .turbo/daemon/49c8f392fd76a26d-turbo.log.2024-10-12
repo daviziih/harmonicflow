@@ -1,0 +1,44 @@
+2024-10-12T03:27:39.159376Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf(".turbo\\cookies"), AnchoredSystemPathBuf(".turbo\\cookies\\1.cookie")}
+2024-10-12T03:27:39.159407Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2024-10-12T03:27:39.862399Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf(".turbo\\daemon"), AnchoredSystemPathBuf(".turbo"), AnchoredSystemPathBuf(".turbo\\cookies")}
+2024-10-12T03:27:39.862419Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2024-10-12T03:28:35.171732Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("package.json")}
+2024-10-12T03:28:35.171758Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(All)
+2024-10-12T03:29:08.468462Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages\\react\\src\\index.tsx")}
+2024-10-12T03:29:08.468482Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@harmonicflow/react"), path: AnchoredSystemPathBuf("packages\\react") }}))
+2024-10-12T03:29:08.561377Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages\\react\\src\\index.tsx")}
+2024-10-12T03:29:08.561393Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@harmonicflow/react"), path: AnchoredSystemPathBuf("packages\\react") }}))
+2024-10-12T03:29:08.561418Z  WARN turborepo_lib::package_changes_watcher: hashes are the same, no need to rerun
+2024-10-12T03:29:20.460743Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages\\react\\src\\index.tsx")}
+2024-10-12T03:29:20.460759Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@harmonicflow/react"), path: AnchoredSystemPathBuf("packages\\react") }}))
+2024-10-12T03:29:59.827964Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf(".turbo\\cookies\\1.cookie"), AnchoredSystemPathBuf(".turbo\\cookies")}
+2024-10-12T03:29:59.827989Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2024-10-12T03:30:01.528731Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf(".turbo\\cookies"), AnchoredSystemPathBuf(".turbo")}
+2024-10-12T03:30:01.528746Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2024-10-12T03:30:08.925636Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("package.json")}
+2024-10-12T03:30:08.925656Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(All)
+2024-10-12T03:35:48.129777Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf(".turbo\\cookies"), AnchoredSystemPathBuf(".turbo\\cookies\\1.cookie")}
+2024-10-12T03:35:48.129800Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2024-10-12T03:35:49.441103Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf(".turbo"), AnchoredSystemPathBuf(".turbo\\cookies")}
+2024-10-12T03:35:49.441123Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2024-10-12T03:36:16.331025Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages\\react\\src\\components\\text\\index.tsx")}
+2024-10-12T03:36:16.331044Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@harmonicflow/react"), path: AnchoredSystemPathBuf("packages\\react") }}))
+2024-10-12T03:36:26.331241Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages\\react\\src\\components\\text\\index.tsx")}
+2024-10-12T03:36:26.331262Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@harmonicflow/react"), path: AnchoredSystemPathBuf("packages\\react") }}))
+2024-10-12T03:36:26.631190Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages\\react\\src\\components\\text\\index.tsx")}
+2024-10-12T03:36:26.631207Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@harmonicflow/react"), path: AnchoredSystemPathBuf("packages\\react") }}))
+2024-10-12T03:36:26.631237Z  WARN turborepo_lib::package_changes_watcher: hashes are the same, no need to rerun
+2024-10-12T03:36:27.542741Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages\\react\\src\\components\\text\\index.tsx")}
+2024-10-12T03:36:27.542762Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@harmonicflow/react"), path: AnchoredSystemPathBuf("packages\\react") }}))
+2024-10-12T03:36:40.031312Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages\\react\\src\\components\\text\\index.tsx")}
+2024-10-12T03:36:40.031335Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@harmonicflow/react"), path: AnchoredSystemPathBuf("packages\\react") }}))
+2024-10-12T03:36:41.428324Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages\\react\\src\\components\\text\\index.tsx")}
+2024-10-12T03:36:41.428346Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@harmonicflow/react"), path: AnchoredSystemPathBuf("packages\\react") }}))
+2024-10-12T03:36:42.330336Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages\\react\\src\\components\\text\\index.tsx")}
+2024-10-12T03:36:42.330372Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@harmonicflow/react"), path: AnchoredSystemPathBuf("packages\\react") }}))
+2024-10-12T03:36:52.631144Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages\\react\\src\\components\\text\\index.tsx")}
+2024-10-12T03:36:52.631197Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@harmonicflow/react"), path: AnchoredSystemPathBuf("packages\\react") }}))
+2024-10-12T03:37:02.346990Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf(".turbo\\cookies"), AnchoredSystemPathBuf(".turbo\\cookies\\1.cookie")}
+2024-10-12T03:37:02.347014Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2024-10-12T03:37:05.445105Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf(".turbo\\cookies"), AnchoredSystemPathBuf(".turbo")}
+2024-10-12T03:37:05.445126Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
