@@ -1,6 +1,6 @@
 {
-  "name": "@elysium/tokens",
-  "version": "1.0.0",
+  "name": "@harmonicflow/tokens",
+  "version": "2.0.0",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
@@ -13,8 +13,11 @@
   "license": "MIT",
   "description": "",
   "devDependencies": {
-    "@elysium/ts-config": "*",
+    "@harmonicflow/ts-config": "*",
     "tsup": "^8.3.0",
     "typescript": "^5.6.3"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }

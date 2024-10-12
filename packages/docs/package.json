@@ -1,6 +1,6 @@
 {
-  "name": "@elysium/docs",
-  "version": "1.0.0",
+  "name": "@harmonicflow/docs",
+  "version": "2.0.0",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -13,9 +13,9 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "@elysium/react": "*",
-    "@elysium/tokens": "*",
-    "@elysium/ts-config": "*",
+    "@harmonicflow/react": "*",
+    "@harmonicflow/tokens": "*",
+    "@harmonicflow/ts-config": "*",
     "polished": "^4.3.1",
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
@@ -37,5 +37,8 @@
     "prop-types": "^15.8.1",
     "storybook": "^8.3.5",
     "vite": "^5.4.8"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }

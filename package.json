@@ -8,7 +8,7 @@
     "build": "turbo run build",
     "changeset": "changeset",
     "version-packages": "changeset version",
-    "telease": "turbo run build --filter=@elysium/docs && changelog publish"
+    "release": "turbo run build --filter=packages/docs && changeset publish"
   },
   "devDependencies": {
     "@changesets/cli": "^2.27.9",
@@ -16,5 +16,8 @@
   },
   "dependencies": {
     "phosphor-react": "^1.4.1"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }

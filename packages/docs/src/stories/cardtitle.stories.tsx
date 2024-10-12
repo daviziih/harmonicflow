@@ -1,6 +1,6 @@
 import { Meta, StoryObj } from '@storybook/react'
 
-import { CardHeader, CardHeaderProps } from '@elysium/react'
+import { CardHeader, CardHeaderProps } from '@harmonicflow/react'
 
 export default {
   title: 'Surfaces/Card Header',

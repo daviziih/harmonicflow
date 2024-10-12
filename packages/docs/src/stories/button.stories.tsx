@@ -2,7 +2,7 @@ import { Meta, StoryObj } from '@storybook/react'
 
 import { ArrowRight } from 'phosphor-react'
 
-import { Button, ButtonProps } from '@elysium/react'
+import { Button, ButtonProps } from '@harmonicflow/react'
 
 export default {
   title: 'Form/Button',

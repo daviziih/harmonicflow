@@ -1,6 +1,6 @@
 {
-  "name": "@elysium/react",
-  "version": "1.0.0",
+  "name": "@harmonicflow/react",
+  "version": "2.0.0",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
@@ -13,8 +13,8 @@
   "license": "MIT",
   "description": "",
   "devDependencies": {
-    "@elysium/tokens": "*",
-    "@elysium/ts-config": "*",
+    "@harmonicflow/tokens": "*",
+    "@harmonicflow/ts-config": "*",
     "@types/react": "^18.3.11",
     "@types/react-dom": "^18.3.0",
     "react": "^18.3.1",
@@ -24,5 +24,8 @@
   "dependencies": {
     "@radix-ui/react-avatar": "^1.1.1",
     "@stitches/react": "^1.2.8"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }

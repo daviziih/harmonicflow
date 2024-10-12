@@ -1,6 +1,6 @@
 import { Meta, StoryObj } from '@storybook/react'
 
-import { Text, TextProps } from '@elysium/react'
+import { Text, TextProps } from '@harmonicflow/react'
 
 export default {
   title: 'Typography/Text',

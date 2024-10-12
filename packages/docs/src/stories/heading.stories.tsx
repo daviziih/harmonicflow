@@ -1,6 +1,6 @@
 import { Meta, StoryObj } from '@storybook/react'
 
-import { Heading, HeadingProps } from '@elysium/react'
+import { Heading, HeadingProps } from '@harmonicflow/react'
 
 export default {
   title: 'Typography/Heading',

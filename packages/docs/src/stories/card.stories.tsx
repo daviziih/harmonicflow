@@ -1,6 +1,6 @@
 import { Meta, StoryObj } from '@storybook/react'
 
-import { Card, CardProps, Text } from '@elysium/react'
+import { Card, CardProps, Text } from '@harmonicflow/react'
 
 export default {
   title: 'Surfaces/Card',

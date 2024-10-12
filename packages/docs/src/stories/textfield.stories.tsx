@@ -1,6 +1,6 @@
 import { Meta, StoryObj } from '@storybook/react'
 
-import { TextInput, TextInputProps } from '@elysium/react'
+import { TextInput, TextInputProps } from '@harmonicflow/react'
 import { LinkSimpleHorizontalBreak } from 'phosphor-react'
 
 export default {

@@ -1,6 +1,6 @@
 import { Meta, StoryObj } from '@storybook/react'
 
-import { Avatar, AvatarProps } from '@elysium/react'
+import { Avatar, AvatarProps } from '@harmonicflow/react'
 
 export default {
   title: 'Data Display/Avatar',
