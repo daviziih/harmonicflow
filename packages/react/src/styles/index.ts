@@ -1,14 +1,14 @@
-import { createStitches, defaultThemeMap } from '@stitches/react'
-
 import {
   colors,
+  fonts,
   fontSizes,
   fontWeights,
   lineHeights,
   radii,
-  fonts,
   space
 } from '@harmonicflow/tokens'
+
+import { createStitches, defaultThemeMap } from '@stitches/react'
 
 export const {
   styled,
@@ -16,18 +16,22 @@ export const {
   globalCss,
   keyframes,
   getCssText,
+  theme,
   createTheme,
   config
 } = createStitches({
-  themeMap: { ...defaultThemeMap, height: 'space', width: 'space' },
-
+  themeMap: {
+    ...defaultThemeMap,
+    height: 'space',
+    width: 'space'
+  },
   theme: {
-    colors,
-    fontSizes,
-    fontWeights,
-    fonts,
-    lineHeights,
-    radii,
-    space
+    colors: colors,
+    fontSizes: fontSizes,
+    fontWeights: fontWeights,
+    fonts: fonts,
+    lineHeights: lineHeights,
+    radii: radii,
+    space: space
   }
 })

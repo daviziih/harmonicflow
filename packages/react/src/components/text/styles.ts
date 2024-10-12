@@ -34,7 +34,7 @@ export const Icon = styled('div', {
 export const Input = styled('input', {
   fontFamily: '$default',
   fontSize: '$md',
-  color: '$white',
+  color: '$gray400',
   fontWeight: 'regular',
   background: 'transparent',
   minWidth: 240, // Arrumar aqui
