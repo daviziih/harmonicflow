@@ -1,48 +1,17 @@
-# Nome do Design System
+<h1 align="center">HarmonicFlow - Design System<h1/>
 
-Um design system para [descrever brevemente o propósito do design system, como: "criar uma experiência de usuário coesa e intuitiva para nossas aplicações"].
+<p align="center">
+  <img alt="Preview do projeto desenvolvido." src=".github/preview.png" width="60%">
+</p>
 
-## Sumário
+## 🚀 Tecnologias
 
-- [Introdução](#introdução)
-- [Componentes](#componentes)
-- [Estilos](#estilos)
-- [Instalação](#instalação)
-- [Uso](#uso)
-- [Contribuição](#contribuição)
-- [Licença](#licença)
+Esse projeto foi desenvolvido com as seguintes tecnologias:
 
-## Introdução
+- React
+- StoryBook
+- Stitches 
 
-O design system [Nome do Design System] fornece um conjunto de diretrizes e componentes reutilizáveis que ajudam a criar uma interface de usuário consistente. Ele é projetado para ser facilmente integrado em projetos e promover boas práticas de design e desenvolvimento.
+## 💻 Projeto
 
-## Componentes
-
-### Lista de Componentes
-
-- **Botão**: [Descrição do botão e suas variações]
-- **Input**: [Descrição do campo de entrada e suas variações]
-- **Modal**: [Descrição do modal e suas variações]
-
-Para mais detalhes, veja a documentação completa dos componentes na pasta `/docs`.
-
-## Estilos
-
-### Tipografia
-
-- Fontes usadas: [Especifique as fontes]
-- Tamanhos de fonte: [Defina tamanhos e estilos]
-
-### Cores
-
-- **Primárias**: [Lista de cores primárias]
-- **Secundárias**: [Lista de cores secundárias]
-
-Para mais detalhes sobre os estilos, veja a documentação na pasta `/docs`.
-
-## Instalação
-
-Para instalar o design system em seu projeto, use o seguinte comando:
-
-```bash
-npm install nome-do-design-system
+HarmonicFlow é um design system moderno e flexível, criado com Stitches, projetado para facilitar a construção de interfaces web consistentes e acessíveis. Ele oferece uma biblioteca de componentes reutilizáveis, que permite aos desenvolvedores criar interfaces escaláveis de forma ágil, mantendo a harmonia visual e a eficiência no desenvolvimento.
